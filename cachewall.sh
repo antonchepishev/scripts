@@ -12,7 +12,7 @@ if grep -q "6.10" /etc/yum.repos.d/CentOS-Base.repo > /dev/null && grep -i "/x86
 echo -e "\e[42mBase repos already configured\e[0m"
 else
 rm -rf /etc/yum.repos.d/CentOS-Base.repo
-wget -O /etc/yum.repos.d/CentOS-Base.repo http://antonrcc.depro7.fcomet.com/CentOS-Base.repo > /dev/null
+wget -O /etc/yum.repos.d/CentOS-Base.repo https://raw.githubusercontent.com/antonfastcomet/scripts/main/CentOS-Base.repo > /dev/null
 echo -e "\e[42mBase repo URLs have been modified\e[0m"
 fi
 fi
