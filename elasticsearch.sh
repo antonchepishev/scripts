@@ -22,7 +22,7 @@ fi
 
 #Install Java
 echo -e "\e[42mInstalling Java\e[0m"
-yum -y install java-1.8.0-openjdk  java-1.8.0-openjdk-deve
+yum -y install java-1.8.0-openjdk  java-1.8.0-openjdk-devel
 
 #Set JAVA_HOME
 echo -e "\e[42mConfiguring JAVA_HOME\e[0m"
